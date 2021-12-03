@@ -30,6 +30,8 @@
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: auto;
+    text-align: center;
+    line-height: 50px;
 }
 .col
 {
@@ -154,3 +156,5 @@
 {
     margin-left: calc( 100% / 12 * 11);
 }
+/*CENTER TEXT*/
+

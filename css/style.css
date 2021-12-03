@@ -1,18 +1,9 @@
-.container
-{
-    height: 500px;
-    background-color: brown;
-}
-.container-fluid
-{
-    height: 500px;
-    background-color: brown;
-}
+
 
 [class^="col"]
 {
-    height: 100px;
-    background-color: darkblue;
+    height: 50px;
+    background-color: #006cfa;
     border: 1px solid white;
     color: white;
 }
