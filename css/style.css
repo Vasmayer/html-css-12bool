@@ -9,5 +9,11 @@
     background-color: brown;
 }
 
-
+[class^="col"]
+{
+    height: 100px;
+    background-color: darkblue;
+    border: 1px solid white;
+    color: white;
+}
 
