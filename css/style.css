@@ -2,9 +2,15 @@
 
 [class^="col"]
 {
-    height: 50px;
+    min-height: 50px;
     background-color: #006cfa;
     border: 1px solid white;
     color: white;
 }
-
+.nested
+{
+    height: 50px;
+    background-color: #00e165;
+    border: 1px solid #006cfa;
+    color: white;
+}

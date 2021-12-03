@@ -156,5 +156,12 @@
 {
     margin-left: calc( 100% / 12 * 11);
 }
-/*CENTER TEXT*/
-
+/*MARGIN*/
+.m-20
+{
+    margin: 20px;
+}
+.mt-20
+{
+    margin-top: 20px;
+}
