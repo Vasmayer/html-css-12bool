@@ -110,6 +110,12 @@
     max-width: 100%;
 
 }
+.col-double-6
+{
+    flex-basis: calc( 100% / 12 * 6 );
+    max-width: calc( 100% / 12 * 6 );
+
+}
 /*OFFSET*/
 
 .offset-1
@@ -155,6 +161,35 @@
 .offset-11
 {
     margin-left: calc( 100% / 12 * 11);
+}
+
+/*ALIGNMENT*/
+.align-center
+{
+    justify-content: center;
+}
+.align-end
+{
+    justify-content: end;
+}
+.align-top
+{
+    align-items: flex-start;
+}
+.align-bottom
+{
+    align-items: flex-end;
+}
+.center{
+    align-items: center;
+}
+.space-around
+{
+    justify-content: space-around;
+}
+.space-between
+{
+    justify-content: space-between;
 }
 /*MARGIN*/
 .m-20
